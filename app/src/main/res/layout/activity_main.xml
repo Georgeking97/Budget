@@ -25,8 +25,8 @@
                 android:id="@+id/txtheader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Budget"
-                android:textColor="#457373"
+                android:text="Spective"
+                android:textColor="@color/green_900"
                 android:textSize="24sp" />
 
             <TextView
@@ -43,14 +43,13 @@
                 android:layout_height="62dp"
                 android:layout_alignParentRight="true"
                 android:background="@color/grey_400"
-                android:src="@drawable/euro_icon" />
+                android:src="@drawable/logo" />
         </RelativeLayout>
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alignmentMode="alignMargins"
-
             android:columnCount="1"
             android:columnOrderPreserved="false"
             android:rowCount="3">
@@ -82,11 +81,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="Goals"
-                        android:textColor="#457373"
-                        android:textSize="18sp" />
+                        android:textColor="@color/green_900"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
-
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -116,8 +114,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="Expenses"
-                        android:textColor="#457373"
-                        android:textSize="18sp" />
+                        android:textColor="@color/green_900"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -149,8 +147,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="Categories"
-                        android:textColor="#457373"
-                        android:textSize="18sp" />
+                        android:textColor="@color/green_900"
+                        android:textSize="20sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>
